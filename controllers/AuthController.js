@@ -42,6 +42,16 @@ class AuthController{
        res.render("login",{message:message})
    }
 
+   loginUser(req,res){
+       res.redirect("/admin")
+   }
+
+   logOut(req,res){
+        req.logout()
+        res.redirect('/');
+    
+   }
+
 }
 
 module.exports=new AuthController()
