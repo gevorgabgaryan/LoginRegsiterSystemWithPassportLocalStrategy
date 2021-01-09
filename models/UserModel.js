@@ -1,5 +1,5 @@
 const mongoose=require('mongoose')
-const bcrypt=requre('bcryptjs')
+const bcrypt=require('bcryptjs')
 const salt_round=8
 
 
